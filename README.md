@@ -1,4 +1,4 @@
-# CIDR Network-Port Scanner
+# Network-Port Scanner
 
 TCP-based network scanner that scans a given CIDR subnet, identifies live hosts, performs port scanning on common ports, and generates structured JSON and Markdown reports.
 
@@ -171,5 +171,6 @@ cidr-network-scanner/
 ├── install.sh
 ├── scanner.py
 ```
+
 
 
