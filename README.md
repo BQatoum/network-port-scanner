@@ -167,8 +167,9 @@ Closed Ports: [22, 80, 445, 3389, 139, 21, 25, 443]
 ```
 cidr-network-scanner/
 │
-├── scanner.py
-├── install.sh
 ├── README.md
+├── install.sh
+├── scanner.py
 ```
+
 
