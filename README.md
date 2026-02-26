@@ -144,12 +144,22 @@ Example:
 - Human-readable Markdown report including:
 
 - Scan date
-
 - Live hosts
-
 - Open ports
-
 - Closed ports
+
+
+Example:
+```
+Network Subnet Scan Report
+Scan date: 2026-02-25 15:20:41.477230
+
+Host: 192.168.1.10
+Status: UP
+Open Ports: []
+Closed Ports: [22, 80, 445, 3389, 139, 21, 25, 443]
+```
+  
 
 ---
 
@@ -160,6 +170,5 @@ cidr-network-scanner/
 ├── scanner.py
 ├── install.sh
 ├── README.md
-├── scan_results.json
-└── Scan_Report.md
 ```
+
